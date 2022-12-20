@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> EVENTO </title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">		
+	</head>
+    <div class="header1">
+		<h1>EVENTO</h1>
+		<p>One stop for all Events</p>
+	  </div>
+	  
+	  <body class="clg_event_details">
+		<div align="center">
+		  <div align="center">
+		  <div class="header1">
+		  </div></br></br>
+		  <h2 class="clg_details">
+			<form action="{{ url_for('colgDetails') }}" method="post">
+			    <div class="msg">{{ msg }}</div>
+			  <fieldset class="textboxes">
+				<label>College name:</label>
+				<input id="college" name="college" type="text" class="textbox" /></br></br>
+				<label>College ID:</label>
+				<input id="id" name="id" type="text" class="textbox" /></br></br>
+				<label for="event_types">Event type:</label>
+				<select name="event_types" id="event_type">
+					<option value="Hackathons">Hackathons</option>
+					<option value="Sports">Sports</option>
+					<option value="Cultural">Cultural events</option>
+					<option value="Workshops">Workshop</option>
+					<option value="Seminar">Seminar</option>
+				</select>
+				<!-- <input type="submit" class="textbox" name="event_type" id="event_type"> -->
+				<!-- <input id="event_type" name="event_type" type="text" class="textbox" /></br></br> -->
+				<label>Event Name:</label>
+				<input id="event_name" name="event_name" type="text" class="textbox" /></br></br>
+				<label>Event Description:</label>
+				<input id="desc" name="desc" type="text" class="textbox" /></br></br>
+				<label>Starting Date:</label>
+				<input id="start_date" name="start_date" type="text" placeholder="YYYY/MM/DD"
+				  class="textbox" /></br></br>
+				<label>End Date:</label>
+				<input id="end_date" name="end_date" type="text" placeholder="YYYY/MM/DD" class="textbox" /></br></br>
+				<label>Fee:</label>
+				<input id="fee" name="fee" type="text" class="textbox" /></br></br>
+			  </fieldset>
+			  <input type="submit" class="btn" value="ADD EVENT"></br></br>
+			  <a href="{{url_for('eventConfirm')}}"> 
+				</a>
+			</form>
+		  </h2>
+			</div>
+		</div>
+	  </body>
+	</html>

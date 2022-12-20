@@ -1,0 +1,370 @@
+
+/* @import url('https://fonts.google.com/specimen/Comforter+Brush?category=Handwriting&preview.text=Evento&preview.text_type=custom'); */
+
+/* body{ 
+    height: 100%;
+    width: 100%;
+} */
+/* .header{
+    padding: 5px 120px;
+    width: 150px;
+    height: 70px;
+    background-color: #ffffff;
+} */
+/* .border{
+    padding: 60px 30px;
+    width: 400px;
+    height: 500px;
+    border: 5px solid #797777;
+    border-radius: 0px;
+    background-color: #ffffff;
+} */
+/* .btn {
+    padding: 10px 40px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Nunito',sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{ 
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}  
+/*##############option.html#####################*/
+
+    .header-content {
+      background-image: url("header-back.png");
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }  
+
+    #heading {
+      font-family: 'Sedgwick Ave', cursive;
+      font-size: 50px;
+      font-weight: bold;
+      color: white;
+      margin:150px 50px 0px 700px;
+    } 
+
+    #caption {
+      font-size: 35px;
+      font-family: 'Sedgwick Ave', cursive;
+      color:white;
+      letter-spacing: 2px;
+      font-weight: 100;
+      display:block;
+      margin:10px 0px 0px 700px;
+    } 
+
+   .mainContent{
+      margin:0;
+      position:0 130px;  
+      display:block;
+    }
+ 
+   .options{
+      display:flex;
+       margin:50px 50px 0px 700px;
+    }
+
+    .opt-btn {
+      border-radius: 100px;
+      background: white;
+      padding: 15px 25px;
+      min-width: 150px;
+      border: 2px solid white;
+      color: black;
+      font-size: 20px;
+      margin-top: 13px;
+      text-align: center;
+      margin-right: 12px;
+      transition: all 0.1s ease-in;
+    }
+
+  .opt-btn:hover {
+      text-decoration: none;
+      color: #333;
+      background-color: #b7b3b3;
+    }
+ 
+  .logoImage {
+      background-image: url("logo3.png");
+      background-size:cover;
+      width:450px;
+      height:450px;
+      margin:50px 0px 0px 50px ;
+      float:left;
+      margin-left:30px;  
+    } 
+/*end of option.html*/
+
+
+/* start of login.html */
+
+.background{
+    background-image:url("header-cover.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    overflow-y:auto;
+
+}
+
+.flex-login-container{
+    display:flex;
+}
+
+.login-logo{
+    background-image:url("login-logo.png");
+    margin:5px;
+    width:130px;
+    height:130px;
+    background-size:cover;
+    /* flex-basis:20%; */
+}
+
+.login-title{
+    margin: 20px 25px;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 30px;
+    /* font-weight: bold; */
+    color: white;
+}
+
+.flex-container-2{
+    display:flex;
+}
+.login_body{
+    background-color:rgb(223, 152, 202);
+    box-sizing:border-box;
+    padding: 35px;
+    border-radius: 25px;
+    border: 2px solid white;
+    /* display:flex;  */
+    margin: 10px 400px;
+    align-content:center;
+    opacity:2;
+}
+
+.textbox{
+    width:200px;
+    padding:10px;
+    color:black;
+    margin:10px 75px;
+    border-radius:10px;
+    border: 1px solid;
+    transition: all 0.1s ease-in;
+}
+
+.btn{
+      border-radius: 30px;
+      background: white;
+      padding: 10px 20px;
+      border: 1px solid black;
+      color: black;
+      /* font-size: 20px; */
+      margin-top: 13px;
+      text-align: center;
+      margin: 20px 130px;
+      transition: all 0.1s ease-in;
+}
+
+.btn:hover{
+    text-decoration: none;
+    color: #333;
+    background-color: #b7b3b3;
+    cursor:pointer;
+}
+
+::placeholder{
+    color:black;
+    opacity:1;
+    font-family:'Open Sans', sans-serif;
+}
+
+.option-msg{
+    color:white;
+    display:inline-block;
+    font-family:'Open Sans', sans-serif;
+    padding-left:40px;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:none;
+    cursor:pointer;
+}
+
+msg{
+    color:white;
+}
+
+
+
+/*end of login.html*/
+
+
+
+
+
+ /*.textbox{
+    padding: 10px 40px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+} */
+    
+/* ::placeholder {
+    color: #302e2e73;
+    opacity: 1;
+    font-family: 'Nunito',sans-serif;
+    font-weight: bold;
+} */
+
+/* .word{
+    color: #000000;
+    font-family: 'Nunito',sans-serif;
+    font-weight: bold;
+} */
+
+/* .bottom{
+    color: #000000;
+    font-family: 'Nunito',sans-serif;
+    font-weight: bold;
+} */
+
+/* .login_background
+{
+    height: 90%;
+    width: 800px;
+    background-image:url('https://img.freepik.com/free-vector/luxury-abstract-gold-background-with-shiny-elements_23-2148827898.jpg?w=2000');
+    background-size: cover;
+    backdrop-filter: none;
+    background-repeat: no-repeat;
+    margin:auto;
+    overflow:hidden;
+}  */
+/* .option
+{
+    height: 100%;
+    width: 800px;
+    background-image:url('https://www.teahub.io/photos/full/24-242844_college-events.jpg');
+    background-size:cover;
+    backdrop-filter: none;
+    background-repeat: no-repeat;
+    margin:auto;
+    overflow:hidden;
+} */
+/* .button
+{
+  background-color: white;
+  color: black;
+  border: 2px solid #f6742f;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 250px;
+  text-align: center;
+} */
+
+/* .button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #f6742f;
+  color: white;
+} */
+ 
+/* .clg_details {
+    padding: 60px 40px;
+    width: 500px;
+    height: 520px;
+    text-align: center;
+    font-family: "Comforter Brush", Handwriting;
+    background: #f2c982;
+    color: white;
+} */
+/* .textboxes {
+    border:0px;
+    width:500px;
+    margin:10px auto;
+} */
+  
+/* label {
+  display:inline-block;
+  width:200px;
+  margin-left:30px;
+  text-align:justify;
+} */
+
+/* .clg_event_details
+{
+    height: 90%;
+    width: 800px;
+    background-image: url('https://www.aphrabehn.online/wp-content/uploads/sites/5/2022/05/image-from-rawpixel-id-3370074-original-1024x683.jpeg');
+    background-size:cover;
+    backdrop-filter: none;
+    background-repeat: no-repeat;
+    margin:auto;
+} */
+/* 
+.confirm_events
+{
+    height: 100%;
+    width: 1000px;
+    background-image: url('https://kcl.ac.uk//newimages/folsm/thumbnail-newsevents/bmb/background-2462434-340.xf9954149.jpg?w=380&h=253&crop=380,229,0,12');
+    background-size:cover;
+    backdrop-filter: none;
+    background-repeat: no-repeat;
+    margin:auto;
+    overflow:auto;
+} */
+
+/* :link{
+    text-decoration: none;
+    color: black;
+} */
+
+ /* .options{
+    height: 100%;
+    width: 800px;
+    background-size:cover;
+    backdrop-filter: none;
+    background-repeat: no-repeat;
+    margin:auto;
+    overflow:hidden;
+    background:linear-gradient(90deg, rgba(89,13,114,0.9223039557619923) 0%, rgba(151,43,169,1) 40%, rgba(112,211,236,1) 100%);
+} */
+
+/* .header2
+{
+    font-family: "Comforter Brush", Handwriting;
+    color:white;
+    font-size: 20px;
+} */
+
+/* table{
+    width: 1000px;
+} */
+/* th,td{
+    padding: 10px 5px 10px 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: large;
+
+} */
+/* tr:nth-child(even) {background-color: #f2f2f2;} */
+/* th {
+    background-color: #04AA6D;
+    color: white;
+  }  */

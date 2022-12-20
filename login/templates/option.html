@@ -1,0 +1,27 @@
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Evento</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">		
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <!-- <link href="styleclg.css" rel="stylesheet" type="text/css" /> -->
+</head>
+
+<body>
+  <div class="header-content">
+        <div class="mainContent">
+          <!-- <img src="logo3.png" class="logoImage" alt="logo"> -->
+          <div class="logoImage" alt="logo"></div>
+          <h1 id="heading">EVENTO</h1>
+          <p id="caption">One-stop for all the events</p>
+          <div class="options">
+            <a href="{{url_for('Student')}}" class="opt-btn">STUDENT</a>
+            <a href=login class="opt-btn">COLLEGE</a>
+          </div>
+        </div>
+  </div>
+</body>
+
+</html>

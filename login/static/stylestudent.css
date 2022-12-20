@@ -1,0 +1,12 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+.header{
+    padding: 5px 120px;
+    width: 150px;
+    height: 70px;
+    background-color: #ffffff;
+}
+
+

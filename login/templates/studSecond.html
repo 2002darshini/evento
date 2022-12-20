@@ -1,0 +1,37 @@
+<html>
+		<head>
+			<meta charset="UTF-8">
+			<title> EVENTO </title>
+			<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">		
+		</head>
+		<div class="header1">
+			<h1>EVENTO</h1>
+			<p>One stop for all Events</p>
+		</div>
+		<body class="confirm_events">
+			{% block mainContent %}
+
+			<h1>Events:</h1>
+			<table class="table_details" border="0">
+				<tr>
+					<th><b>Event Name</b></th>
+					<th><b>Event type</b></th>
+					<th><b>Start date</b></th>
+					<th><b>End date</b></th>
+					<th><b>Fee</b></th>	
+				</tr>
+	
+				{% for row in eventss %}
+				<tr>
+					<td>{{row['event_name']}}</td>
+					<td>{{row['event_type']}}</td>
+					<td>{{row['start_date']}}</td>
+					<td>{{row['end_date']}}</td>
+					<td>{{row['fee']}}</td>
+				</tr>
+				{% endfor %}
+			
+			</table>
+			{% endblock %}
+		</body>
+	</html>

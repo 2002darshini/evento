@@ -1,0 +1,65 @@
+<!-- Store this code in 'login.html' file inside the 'templates' folder -->
+
+<!-- <html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Login </title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">		
+	</head>
+	<body class="login_background"></br></br></br></br></br>
+		<div align="center">
+		<div align="center" class="border">
+			<div class="header">
+				<h1 class="word">Login</h1>
+			</div></br></br>
+			<h2 class="word">
+				<form action="{{ url_for('login') }}" method="post">
+				<div class="msg">{{ msg }}</div>
+					<input id="college" name="college" type="text" placeholder="Enter College name" class="textbox"/></br></br>
+					<input id="id" name="id" type="text" placeholder="Enter College id" class="textbox"/></br></br>
+					<input id="username" name="username" type="text" placeholder="Enter Username" class="textbox"/></br></br>
+					<input id="password" name="password" type="password" placeholder="Enter Password" class="textbox"/></br></br></br>
+					<a href=colgDetails></a>
+					<input type="submit" class="btn" value="Sign In"></br></br>	
+				</form>
+			</h2>
+			<p class="bottom">Don't have an account? <a class="bottom" href="{{url_for('register')}}"> Sign Up here</a></p>
+		</div>
+		</div>
+	</body>
+</html> -->
+
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Login </title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">		
+	</head>
+	<body class="background">
+			<div class="flex-login-container">
+					<div class="login-logo"></div>
+					<div class="login-title">
+						<h1>EVENTO</h1>
+						<p>One-stop for all the events</p>
+					</div>	
+			</div>
+				<div class="login_body">
+					<img alt="" class="avatar" src="">
+					<form action="{{url_for('login') }}" method="post">
+						<input id="college" name="college" type="text" placeholder="Enter College name" class="textbox" />
+						<input id="id" name="id" type="text" placeholder="Enter College ID" class="textbox"/>
+						<input id="username" name="username" type="text" placeholder="Enter username" class="textbox" />
+						<input id="password" name="password" type="password" placeholder="Enter password" class="textbox"/></br>
+						<a href="colgDetails.html"></a>
+						<input type="submit" class="btn" value="Sign In"/>
+					</form>
+					<div>{{ msg }}</div>
+					<div class="option-msg">
+						<p>Don't have an account? <a href="{{url_for('register')}}">Sign Up here</a></p>
+					</div>
+				</div>
+			</div>
+
+	</body>
+</html>
